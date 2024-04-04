@@ -10,7 +10,7 @@ class Note:
     code: int
     title: str
     text: str
-    #creation_date: datetime = field(default_factory=datetime.now)
+    #creation_date: datetime = field(default_factory=datetime.now())
     importance: str
     tags: list[str] = field(default_factory=list)
 
